@@ -5,7 +5,7 @@ class TickingClock extends Component {
     render() {
         return(
             <div>
-                <h1>My clock!</h1>
+                <h1>{Date()}</h1>
             </div>
         )
     }
